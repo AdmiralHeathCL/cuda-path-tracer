@@ -408,20 +408,9 @@ AddressSanitizer, UndefinedBehaviorSanitizer and leak checks.
 
 ## What to do next
 
-Planned extensions; these are not part of the current material and lighting support.
-
-1. **Transparent OBJ materials.** Support MTL dissolve/opacity inputs (`d`, `Tr`
-   and `map_d`) with defined behavior for surface coverage and shadow visibility.
-   Keep opacity distinct from dielectric transmission: reproducing the bottle
-   needs refractive glass while its label and cap remain opaque. Validate that
-   combination with texture-controlled or separate material assignments.
-2. **Color management and richer materials.** Decode base-color images from sRGB
-   into linear values, keep data maps linear, and add exposure/tone mapping.
-   Extend shading with normal maps and an energy-consistent rough reflection model
-   so imported surface detail and roughness survive the material conversion.
-3. **Environment lighting and scene controls.** Load HDR environments with
-   importance sampling and integrate their PDFs into MIS. Allow control over
-   lighting, camera settings and the automatic preview floor.
+1. **Color management and richer materials.**
+2. **Environment lighting and scene controls.**
+3. **Wavefront Path Tracing**
 
 ## License and assets
 
