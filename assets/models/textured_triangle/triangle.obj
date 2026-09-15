@@ -1,0 +1,12 @@
+# Hand-authored UV and independent-index fixture.
+mtllib materials/paint.mtl
+o UVTriangle
+v 0 0 0
+v 1 0 0
+v 0 1 0
+vt 0.1 0.2
+vt 0.9 0.2
+vt 0.1 0.8
+vn 0 0 1
+usemtl paint
+f -3/1/1 -2/2/1 -1/3/1

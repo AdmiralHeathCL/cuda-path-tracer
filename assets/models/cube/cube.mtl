@@ -1,0 +1,7 @@
+newmtl sides
+Kd 0.8 0.4 0.15
+illum 2
+
+newmtl top
+Kd 0.15 0.7 0.25
+illum 2

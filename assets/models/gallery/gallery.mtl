@@ -1,0 +1,12 @@
+newmtl paint
+Kd 0.3 0.7 0.2
+illum 2
+newmtl glass
+Ni 1.5
+illum 7
+newmtl mirror
+Ks 0.8 0.7 0.6
+illum 5
+newmtl lamp
+Ke 4 3 2
+illum 2

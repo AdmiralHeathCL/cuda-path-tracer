@@ -1,0 +1,10 @@
+/build*/
+/output/*
+!/output/.gitkeep
+__pycache__/
+*.pyc
+*.ncu-rep
+*.nsys-rep
+*.blend1
+*:[Zz]one.Identifier
+.DS_Store

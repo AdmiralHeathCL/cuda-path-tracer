@@ -1,0 +1,4 @@
+newmtl paint
+Kd 0.5 0.75 1
+illum 2
+map_Kd -clamp on four colors.png
